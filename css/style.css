@@ -51,12 +51,19 @@ a {
 
 .main-task {
     font-weight: 800;
+    margin-top: 30px;
 }
 
 .check {
     color: green;
     border: 2px solid green;
     border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 20px;
+    height: 20px;
 
 }
 
@@ -64,13 +71,21 @@ a {
     color: red;
     border: 2px solid red;
     border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 20px;
+    height: 20px;
 }
 
 .tag {
     border: 2px solid transparent;
     border-radius: 20px;
-    padding: 3px;
+    padding: 8px;
     color: white;
+    font-size: 10px;
+    margin: 5px;
 }
 
 .editorial {
@@ -114,7 +129,19 @@ hr {
     border: none;
     height: 1.5px;
     background-color: rgb(245, 243, 243);
-   margin-bottom: 50px;
-   margin-top: 25px;
-   width: 100%;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
 }
