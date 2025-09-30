@@ -1,6 +1,31 @@
-*{
+* {
     margin: 0;
-    padding: 0 ;
+    padding: 0;
     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    display: inline;
+    font-weight: 800;
+    vertical-align: middle;
+    font-size: 65px;
+}
+
+.logo {
+    height: 80px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+header{
+    background-color: rgb(202, 47, 47);
+      padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+a{
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+}
