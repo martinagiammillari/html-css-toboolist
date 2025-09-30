@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -17,15 +17,79 @@ h1 {
     vertical-align: middle;
     margin-left: 10px;
 }
-header{
+
+header {
     background-color: rgb(202, 47, 47);
-      padding-top: 15px;
+    padding-top: 15px;
     padding-bottom: 15px;
 
 }
 a{
-    border: 2px solid black;
-    border-radius: 5px;
     text-decoration: none;
+}
+.blue-button {
+    border: 2px solid transparent;
+    border-radius: 5px;
     margin: 5px;
+    font-size: 10px;
+    padding: 5px;
+     background-color: rgb(0, 166, 255);
+     color: white;
+
+}
+.white-button {
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 10px;
+    padding: 5px;
+    color: grey;
+}
+
+.main-task {
+    font-weight: 800;
+}
+
+.check {
+    color: green;
+    border: 2px solid green;
+    border-radius: 50%;
+
+}
+
+.cross {
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+.tag {
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 3px;
+    color: white;
+}
+
+.editorial {
+    background-color: rgb(0, 166, 255);
+}
+
+.q1-goals {
+    background-color: blueviolet;
+}
+
+.recruiting {
+    background-color: rgb(129, 211, 129);
+}
+
+.mobile {
+    background-color: orange;
+}
+
+.website {
+    background-color: pink;
+}
+
+.sales {
+    background-color: greenyellow;
 }
